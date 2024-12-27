@@ -1,0 +1,54 @@
+/* Project section start */
+#my-project .card {
+    width: 18rem;
+}
+
+/* Project section end */
+
+
+/* Testimonial section start */
+#testimonial #testimonialAutoplay .carousel-inner .carousel-item {
+    height: 400px;
+    /* background-color: lightgreen; */
+}
+
+#testimonial #testimonialAutoplay .carousel-inner .carousel-item img {
+    height: 100px;
+    width: 100px;
+}
+
+#testimonial #testimonialAutoplay .carousel-inner .carousel-item .carousel-item-sub-container .warning-star {
+    color: rgb(255, 221, 0);
+}
+
+.carousel-control-prev .carousel-control-prev-icon {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACMklEQVR4nO2ZW09TURCFv0iCARNaEGipVq4vgvIk/5h3by9VEPrGXVC5qKgt+AAU4l+o2ck0mZwQuqchhzmkK2nSnE6T/WWvvTKzD3TV1b1TL7AI7ALjZBjiNdCUzwkwScb0EHgnAFfAtnz/DZTJ0E68lYX/A14BOWBdntWBCTIA0dqJBjCvftMwx8ATHNvpvYJ4eU1NgNmQmp8eYfqAiizwAnhxQ+2gOjNHsotuID7Kws6BWYP9LoFHOFA/sKQg5iIg3qggWMAJxLIRIplmLiA+dWinRiLNXECcRUDEpFnqCgdzRRb1F5gxQFx4gliVRZ1GQOg0axfJdwYxbUgzVxBV1cFO33KapaLQUqwpiKlbTrPUIeoRs4Q1zVJRsu2eNKRZgHiOA+VVh1qLmB2saZYJiHZBkJqqxlnhg7JfuyBIVRVZ2J/IW4+qmivGcKSBRFJNRFhxS+p/ACWcwawbYPTE993bzuQUTC3CZgFmR9msiCPljBcFI8BXrzB5YFPBlCJgvkn9IVDAkfLGAz2qYL4Aw2QcZl/q94DHONKgMZ0CzIHU73qE2THAFDzDjBjTqSAHP9R/BoZwJJ1ORxHpVPQMM2pMp6dyC98UewabupE1nQLML6nf9gZTFHvF2uaZdNdNmSpdaUxSLMY2OdX6hHPjTjHplLwLcDWMxdrMeqFx59IHumUz612AG5XlVXRTJs5WNxDiN4BmShrG7cvPWI2LzQ68zfOdqAd40NE/u8K3/gOW4ut3kgKWZwAAAABJRU5ErkJggg==");
+}
+
+.carousel-control-next .carousel-control-next-icon {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACDklEQVR4nO2aWUsrQRBGj/rkKJpcTNQouIvLL/dB8N01orhd1OsexR2J/0IZKKFo0Om+SlsN+SAQMvVQh+76pqoItNSSWWXAInAHzJAwxDLwJp9XYI7E1AWsCcALUFffp0joJFYl8aacgvvbLMaVqZNwE9Ywz8AkCVynp08S1aA5zAQGtSQJPhYk2A1sqtgxjGlBFfR0QWwOsyXxD8AohtQJrCirnfW4ihtWTyZz3GnGA6aeAsyzR0H3ADtWr1nmOFgRTC+waxlmXcGMe8DsSfwNMIQhdTkF7QOzL/HXFmHqAQVdcmBqJA5zIPENazA9gQWdw/yV+CtgEENy3WmkIL5sHWYvoKArwInEXwIDGJLrTrWUYUoKpuEJcyrx/4A+DOkPcCTJ5Um2F8T3AxcSn9dOG4acbFsSuwU6CuIzZzArio9WJzsBb/1MNaP5mDBP4hBNK2sl910yFrALaFrZwJTUO8QXYt3a5qWkIO49WhQN8dlWJrrcjnY4oP33GcyiqKw6WZ+WxDUCcxCN/4AocrMoqkgr8dG51n7YzaJIN3k+EKFuFkVVp1Md/GE3iwZxGggR4mbRIS48ZoZQN4umo4BZIX9+HFBDUbWrTiOfG3zczOf6RVfZY1EQ6ma/psoXs3Wom5mEqQa6mRlVgXNV/B9z9ok8S0pV4Ez9YeBYTitJDQCH0giaWt+01BLf1ztM5euLZEpP8QAAAABJRU5ErkJggg==");
+}
+
+
+
+
+/* Media query start */
+@media only screen and (max-width:1400px) {
+    #my-project .card {
+        width: 15rem;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    #my-project .card {
+        width: 13rem;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    #my-project .card {
+        width: 18rem;
+    }
+}
+
+/* Media query end */
